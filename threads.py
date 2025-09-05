@@ -4,7 +4,7 @@ import threading
 
 # Configuración del programa (valores por defecto)
 DEFAULT_MATRIX_SIZE = 1000
-DEFAULT_NUM_THREADS = 12
+DEFAULT_NUM_THREADS = 4
 
 def parallel_matrix_multiplication(A, B, num_threads=None):
     """
